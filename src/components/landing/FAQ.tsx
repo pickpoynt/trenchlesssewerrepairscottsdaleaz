@@ -3,84 +3,88 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "How much does Animal Control charge to remove a raccoon?",
-    answer: "Most municipal animal control services specialized in domestic animals (dogs/cats) and often do not remove wildlife from private property. For professional removal, private wildlife specialists typically charge based on the entry points and number of animals."
+    question: "How much does wildlife removal cost?",
+    answer: "In Douglasville, wildlife removal costs typically range from $150 to $500 for a basic extraction, but can increase depending on the complexity of exclusion and the extent of property damage."
   },
   {
-    question: "Should I call Animal Control if I see a raccoon?",
-    answer: "Only call municipal animal control if the raccoon is acting rabid or poses an immediate threat in a public space. For raccoons on your property or in your attic, a private wildlife removal service in Gastonia is your best option."
+    question: "What is the phone number for animal control in Douglas GA?",
+    answer: "The official Douglas County Animal Control can be reached at (770) 942-5961 for domestic animal issues, though private firms are recommended for residential wildlife removal."
   },
   {
-    question: "How do you get rid of a raccoon asap?",
-    answer: "The fastest way is professional live-trapping and immediate exclusion. Closing entry points and removing attractants are critical steps to take alongside trapping."
+    question: "What is nuisance wildlife removal?",
+    answer: "Nuisance wildlife removal refers to the professional service of humanely trapping and relocating animals (like raccoons, squirrels, or bats) that have become a disturbance or threat to a property."
   },
   {
-    question: "What month are raccoons most active?",
-    answer: "Raccoons are active year-round but peak activity occurs during their breeding season (February-March) and when mothers are raising young (April-June)."
+    question: "What happens if you get caught with a squirrel in GA?",
+    answer: "In Georgia, it is illegal to keep wild squirrels as pets without a proper permit. Wildlife must be handled by licensed rehabilitators or removal specialists."
   },
   {
-    question: "How to get a raccoon to leave your property?",
-    answer: "Remove all food sources (pet food, unsecured trash, fallen fruit) and use professional-grade deterrents or exclusion methods to block access to nesting sites like attics or decks."
+    question: "What is the hardest pest to get rid of?",
+    answer: "Many specialists consider rats or raccoons the hardest nuisance wildlife to eliminate permanently due to their high intelligence and persistence in re-entering buildings."
   },
   {
-    question: "Do raccoons return to the same place?",
-    answer: "Yes, raccoons are highly territorial and have excellent memories. If a nesting site is not properly sealed (excluded), they or other raccoons will return to the same location."
+    question: "Does homeowners insurance cover wildlife removal?",
+    answer: "Most standard policies do not cover the removal itself, but they often cover the damage caused by certain wildlife, such as chewed wiring or structural harm, depending on the animal."
   },
   {
-    question: "How much does it cost to get rid of a raccoon?",
-    answer: "Costs vary depending on the complexity of the removal, the number of entry points that need sealing, and any necessary attic restoration. Contact us for a precise Gastonia-area quote."
+    question: "Does it cost money to call Animal Control?",
+    answer: "Calling municipal animal control in Douglasville is typically free for public safety reports, but they usually do not provide removal services for wildlife inside private attics or crawlspaces."
   },
   {
-    question: "What will animal control do with a raccoon?",
-    answer: "Private wildlife companies typically humanely trap and relocate raccoons according to North Carolina state regulations, or use exclusion methods to let them leave naturally."
+    question: "Who do you call for a wild animal?",
+    answer: "For wild animals on private property in Douglasville, you should call a licensed wildlife removal operator like Douglasville Wildlife Removal Pros at 3238801224."
   },
   {
-    question: "What do raccoons hate the most?",
-    answer: "Raccoons dislike strong scents (peppermint, ammonia), bright flashing lights, and loud, unfamiliar noises. However, these are often only temporary fixes compared to professional exclusion."
+    question: "What is the new pet law in Georgia?",
+    answer: "Georgia recently updated laws regarding animal welfare and tethering, emphasizing proper shelter and humane treatment for domestic pets across Douglas County."
   },
   {
-    question: "Will raccoons leave if you scare them?",
-    answer: "They might leave temporarily if startled, but a raccoon with a food source or a nest with babies will almost certainly return once they feel the 'threat' has passed."
+    question: "Who pays for animal control?",
+    answer: "Douglas County Animal Control is funded by local tax dollars for public services, while private wildlife removal is the financial responsibility of the homeowner."
   },
   {
-    question: "What attracts raccoons to your property?",
-    answer: "Easy access to food is the primary driver. This includes bird feeders, outdoor pet bowls, compost piles, and trash cans that aren't secured with locking lids."
+    question: "Can you find out who reported you to Animal Control?",
+    answer: "Typically, reporting names are kept confidential by Douglas County Animal Control to encourage public safety reporting, though they are accessible under specific legal discovery."
   },
   {
-    question: "What food is poisonous to raccoons?",
-    answer: "While raccoons are scavengers, foods like chocolate, onions, garlic, and macadamia nuts can be toxic to them, much like they are to dogs and cats."
+    question: "How do you call animal control near me?",
+    answer: "Residents in Douglasville can dial 770-942-5961 for the Douglas County Animal Services or use 911 for immediate public safety emergencies involving animals."
   },
   {
-    question: "Will leaving a porch light on keep raccoons away?",
-    answer: "While raccoons prefer darkness, they are highly adaptable. Leaving a light on may deter them for a few nights, but they will eventually get used to it if there is a reward (food/shelter)."
+    question: "Is Douglas, GA a good place to live?",
+    answer: "Douglasville is highly regarded for its suburban feel, historic downtown, and proximity to Atlanta, making it a popular choice for families in the West Atlanta metro area."
   },
   {
-    question: "How can I prevent raccoons from returning?",
-    answer: "The only permanent solution is professional exclusion: sealing all potential entry points with heavy-gauge materials and removing all local food attractants."
+    question: "Is it illegal to walk your dog without a leash in Georgia?",
+    answer: "Yes, Douglas County has strict leash laws requiring dogs to be under physical control (leashed) whenever they are off the owner's private property."
   },
   {
-    question: "What time of night are raccoons most active?",
-    answer: "Raccoons are nocturnal and are typically most active from dusk until dawn, with peak activity often occurring in the middle of the night."
+    question: "What are the 4 types of animal abuse?",
+    answer: "The four primary categories generally recognized are neglect, physical abuse, psychological abuse (cruelty), and organized abuse (like animal fighting)."
   },
   {
-    question: "What smell makes raccoons go away?",
-    answer: "Strong, pungent smells like cayenne pepper, peppermint oil, or vinegar can act as temporary deterrents, but they must be reapplied frequently."
+    question: "Is Douglas County growing or shrinking?",
+    answer: "Douglas County is one of the fastest-growing counties in the Atlanta metro area, with steady population increases over the last decade."
   },
   {
-    question: "Can exterminators get rid of raccoons?",
-    answer: "Traditional pest control 'exterminators' focus on insects. You need a specialized wildlife removal professional who has the licensing and equipment for large mammal trapping and exclusion."
+    question: "What happens to abandoned animals?",
+    answer: "In Douglasville, abandoned animals are typically picked up by animal control and taken to the Douglas County Animal Shelter for medical assessment and potential adoption."
   },
   {
-    question: "Do raccoons sleep in the same place every night?",
-    answer: "Raccoons often have several 'denning' sites within their territory and may rotate between them, though a mother with kits will stay in one place until the young are mobile."
+    question: "Do I get charged for calling Animal Control?",
+    answer: "No, there is typically no charge for contacting Douglas County Animal Control for reports, though citations or fees may be issued if an owner is found in violation of local ordinances."
   },
   {
-    question: "What is a raccoon's biggest enemy?",
-    answer: "In urban areas like Gastonia, their biggest threats are automobiles, domestic dogs, and larger predators like coyotes or owls (for the kits)."
+    question: "Who to call if concerned about a dog?",
+    answer: "If you suspect neglect or abuse of a dog in Douglasville, contact Douglas County Animal Control at 770-942-5961 or the Douglas County Sheriff's Office."
   },
   {
-    question: "What are raccoons doing in October?",
-    answer: "In October, raccoons are focused on 'hyperphagia'—eating as much as possible to build up fat reserves for the winter months when food becomes scarce."
+    question: "What is the new dog law in Georgia?",
+    answer: "Recent updates focus on 'Responsible Dog Ownership,' detailing requirements for containing dangerous dogs and increasing penalties for negligence that leads to attacks."
+  },
+  {
+    question: "What movies were filmed in Douglas, GA?",
+    answer: "Douglasville is a major filming hub, hosting productions like Stranger Things (the Hawkins Police Station), The Hunger Games movies, and The Walking Dead."
   }
 ];
 
@@ -92,10 +96,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Wildlife Removal <span className="text-indigo-600">in Gastonia NC FAQ</span>
+            Wildlife Removal <span className="text-indigo-600">in Douglasville GA FAQ</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Common questions about raccoon removal, animal exclusion techniques, and wildlife protection in Gastonia.
+            Common questions about animal control, wildlife exclusion techniques, and protection laws in Douglasville.
           </p>
         </div>
 

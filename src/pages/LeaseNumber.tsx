@@ -7,8 +7,8 @@ const LeaseNumber = () => {
     return (
         <div className="min-h-screen bg-slate-50">
             <Helmet>
-                <title>Lease This Phone Number - Gastonia Wildlife Removal Pros</title>
-                <meta name="description" content="Replace this wildlife removal phone number with your own business line in Gastonia, NC for only $19 a month. Contact leasemynumber@gmail.com to get started." />
+                <title>Lease This Phone Number - Douglasville Wildlife Removal Pros</title>
+                <meta name="description" content="Replace this wildlife removal phone number with your own business line in Douglasville, GA for only $19 a month. Contact leasemynumber@gmail.com to get started." />
                 <meta name="robots" content="noindex, nofollow" />
             </Helmet>
 
@@ -29,7 +29,7 @@ const LeaseNumber = () => {
                                 Lease This Phone Number
                             </h1>
                             <p className="text-indigo-100 text-xl max-w-2xl mx-auto leading-relaxed font-medium italic">
-                                Run a professional wildlife removal business in Gastonia NC? Replace this number with your own business line and receive all inbound leads — for just <span className="font-bold text-white">$19 a month</span>.
+                                Run a professional wildlife removal business in Douglasville GA? Replace this number with your own business line and receive all inbound leads — for just <span className="font-bold text-white">$19 a month</span>.
                             </p>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ const LeaseNumber = () => {
 
                             <div className="space-y-4">
                                 <a
-                                    href="mailto:leasemynumber@gmail.com?subject=Phone Lease Inquiry - Gastonia Wildlife - $19/month"
+                                    href="mailto:leasemynumber@gmail.com?subject=Phone Lease Inquiry - Douglasville Wildlife - $19/month"
                                     className="w-full inline-flex items-center justify-center gap-3 bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-2xl font-bold uppercase tracking-widest text-sm transition-all hover:gap-4 shadow-lg shadow-indigo-900/20"
                                 >
                                     <Mail className="w-5 h-5" />
@@ -92,9 +92,6 @@ const LeaseNumber = () => {
                         </div>
                     </div>
 
-
-
-
                     {/* Bottom CTA strip */}
                     <div className="bg-slate-900 rounded-2xl p-8 text-center text-white border border-indigo-500/20">
                         <p className="text-slate-400 text-sm font-medium mb-2">Questions? Email us directly</p>
@@ -102,10 +99,6 @@ const LeaseNumber = () => {
                             LEASE MY NUMBER
                         </a>
                     </div>
-
-
-
-
                 </div>
             </main>
 

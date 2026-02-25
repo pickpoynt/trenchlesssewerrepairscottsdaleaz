@@ -4,32 +4,32 @@ const servicesList = [
   {
     icon: Home,
     title: "Raccoon Trapping",
-    description: "Our Raccoon control Southwest Ranches specialists use humane, precision trapping to quickly remove nuisance raccoons from your property."
+    description: "Our Douglasville GA specialists use humane, precision trapping to quickly remove nuisance raccoons from your property."
   },
   {
     icon: Search,
     title: "Humane Exclusion",
-    description: "Advanced one-way doors and entry point sealing that allow raccoons to leave but prevent them from returning to your Southwest Ranches home."
+    description: "Advanced one-way doors and entry point sealing that allow wildlife to leave but prevent them from returning to your Douglasville home."
   },
   {
     icon: Activity,
     title: "Attic Decontamination",
-    description: "We thoroughly clean and sanitize attics damaged by raccoons, removing waste and pheromones to ensure a safe, healthy environment."
+    description: "We thoroughly clean and sanitize attics damaged by wildlife, removing waste and pheromones to ensure a safe, healthy environment."
   },
   {
     icon: Zap,
     title: "Emergency Removal",
-    description: "Rapid response for active raccoon threats in Southwest Ranches. We deploy fast-acting, professional-grade control protocols immediately."
+    description: "Rapid response for active wildlife threats in Douglasville. We deploy fast-acting, professional-grade control protocols immediately."
   },
   {
     icon: Sprout,
     title: "Damage Restoration",
-    description: "Targeted repair for roofing, soffits, and insulation damaged by raccoons using professional-grade materials and techniques."
+    description: "Targeted repair for roofing, soffits, and insulation damaged by animals using professional-grade materials and techniques."
   },
   {
     icon: ShieldCheck,
     title: "Property Shield",
-    description: "Seasonal inspections and proactive monitoring to ensure your Southwest Ranches property remains free of wildlife activity year-round."
+    description: "Seasonal inspections and proactive monitoring to ensure your Douglasville property remains free of wildlife activity year-round."
   }
 ];
 
@@ -39,10 +39,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600">Raccoon control Southwest Ranches</span>
+            Expert <span className="text-indigo-600">Wildlife Removal Douglasville GA</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Comprehensive wildlife solutions designed for Southwest Ranches' unique properties. We reclaim your home's integrity and safety.
+            Comprehensive wildlife solutions designed for Douglasville's unique properties. We reclaim your home's integrity and safety.
           </p>
         </div>
 

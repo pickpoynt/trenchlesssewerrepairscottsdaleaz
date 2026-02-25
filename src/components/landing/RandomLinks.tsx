@@ -1,5 +1,4 @@
 const links = [
-  { text: "Chipmunk Removal Brooksville", url: "https://chipmunkremovalbrooksvillefl.vercel.app/" },
   { text: "Earwig Exterminator Denver", url: "https://earwigexterminatordenver.vercel.app/" },
   { text: "Centipede Repellent Hawaii", url: "https://centipederepellenthawaii.vercel.app/" },
   { text: "Pest Control South Point Ohio", url: "https://pestcontrolsouthpointohio.vercel.app/" },
@@ -10,7 +9,9 @@ const links = [
   { text: "Gopher Control Frankenmuth MI", url: "https://gophercontrolfrankenmuthmi.vercel.app/" },
   { text: "Earwig Control Fulton MD", url: "https://earwigcontrolfultonmd.vercel.app/" },
   { text: "Leaking Pipe Repair Modesto", url: "https://leakingpiperepairinmodesto.vercel.app/" },
-  { text: "Bed Bug Exterminator Wapakoneta Ohio", url: "https://bedbugexterminatorinwapakonetaohio.vercel.app/" }
+  { text: "Bed Bug Exterminator Wapakoneta Ohio", url: "https://bedbugexterminatorinwapakonetaohio.vercel.app/" },
+  { text: "Chipmunk Removal Brooksville", url: "https://chipmunkremovalbrooksvillefl.vercel.app/" },
+  { text: "Raccoon Control Southwest Ranches", url: "https://raccooncontrolsouthwestranches.vercel.app/" }
 ];
 
 const RandomLinks = () => {

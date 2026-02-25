@@ -14,32 +14,32 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>wildlife removal gastonia nc | Gastonia Wildlife Removal Pros</title>
-        <meta name="description" content="Looking for professional wildlife removal gastonia nc? Specialist animal control, damage repair, and humane exclusion services for Gastonia properties. Call 3238801224 today!" />
-        <meta name="keywords" content="wildlife removal gastonia nc, Gastonia animal control, raccoon removal Gastonia, squirrel removal Gastonia NC, pest control Gastonia" />
-        <link rel="canonical" href="https://wildliferemovalgastonianc.vercel.app/" />
+        <title>wildlife removal douglasville ga | Douglasville Wildlife Removal Pros</title>
+        <meta name="description" content="Looking for professional wildlife removal douglasville ga? Specialist animal control, damage repair, and humane exclusion services for Douglasville properties. Call 3238801224 today!" />
+        <meta name="keywords" content="wildlife removal douglasville ga, Douglasville animal control, raccoon removal Douglasville, squirrel removal Douglasville GA, pest control Douglasville" />
+        <link rel="canonical" href="https://wildliferemovaldouglasvillega.vercel.app/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Gastonia Wildlife Removal Pros",
+            "name": "Douglasville Wildlife Removal Pros",
             "image": "/1.jpeg",
-            "@id": "https://wildliferemovalgastonianc.vercel.app/",
-            "url": "https://wildliferemovalgastonianc.vercel.app/",
+            "@id": "https://wildliferemovaldouglasvillega.vercel.app/",
+            "url": "https://wildliferemovaldouglasvillega.vercel.app/",
             "telephone": "+13238801224",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Main St",
-              "addressLocality": "Gastonia",
-              "addressRegion": "NC",
-              "postalCode": "28052",
+              "addressLocality": "Douglasville",
+              "addressRegion": "GA",
+              "postalCode": "30134",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "35.2621",
-              "longitude": "-81.1873"
+              "latitude": "33.7515",
+              "longitude": "-84.7477"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -57,11 +57,11 @@ const Index = () => {
             "serviceType": "Wildlife Removal & Animal Control",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Gastonia Wildlife Removal Pros"
+              "name": "Douglasville Wildlife Removal Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "Gastonia, NC"
+              "name": "Douglasville, GA"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
@@ -76,10 +76,10 @@ const Index = () => {
           })}
         </script>
 
-        <meta property="og:title" content="wildlife removal gastonia nc | Gastonia Wildlife Removal Pros" />
-        <meta property="og:description" content="Expert wildlife removal services in Gastonia, NC. Protect your home and family with professional trapping and humane exclusion." />
+        <meta property="og:title" content="wildlife removal douglasville ga | Douglasville Wildlife Removal Pros" />
+        <meta property="og:description" content="Expert wildlife removal services in Douglasville, GA. Protect your home and family with professional trapping and humane exclusion." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://wildliferemovalgastonianc.vercel.app/" />
+        <meta property="og:url" content="https://wildliferemovaldouglasvillega.vercel.app/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
@@ -89,13 +89,13 @@ const Index = () => {
           title={
             <>
               Wildlife <br />
-              <span className="text-white drop-shadow-sm uppercase">Removal in Gastonia NC</span>
+              <span className="text-white drop-shadow-sm uppercase">Removal in Douglasville GA</span>
             </>
           }
-          subtitle="Gastonia's premier specialists in professional wildlife removal. We provide advanced trapping, humane exclusion techniques, and comprehensive property protection to keep your home animal-free. Dedicated to Gastonia's safety and peace of mind. Available 24/7."
+          subtitle="Douglasville's premier specialists in professional wildlife removal. We provide advanced trapping, humane exclusion techniques, and comprehensive property protection to keep your home animal-free. Dedicated to Douglasville's safety and peace of mind. Available 24/7."
           image="/1.jpeg"
           overlayImage="/2.jpeg"
-          badge="GASTONIA WILDLIFE REMOVAL PROS"
+          badge="DOUGLASVILLE WILDLIFE REMOVAL PROS"
           phone="3238801224"
         />
         <Services />
@@ -104,7 +104,7 @@ const Index = () => {
         <Contact />
         <FAQ />
 
-        <section className="bg-white py-12 border-t">
+        <section className="bg-white py-12 border-t text-center">
           <div className="container mx-auto px-4">
             <h2 className="text-2xl font-bold mb-6 text-slate-800 uppercase tracking-tight">Our Local Resource Network</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pb-8">
@@ -125,9 +125,3 @@ const Index = () => {
 };
 
 export default Index;
-
-
-
-
-
-
