@@ -79,7 +79,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Support</p>
-                  <a href="/lease-my-number" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors uppercase tracking-tight text-nowrap">LEASE MY NUMBER</a>
+                  <a href="/lease-my-number" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors uppercase tracking-tight text-nowrap">LEASE MY NUMBER AND INK IT TO LEASE PAGE</a>
                 </div>
               </li>
             </ul>
