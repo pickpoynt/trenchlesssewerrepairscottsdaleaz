@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import ToxicBlackMoldInfo from "@/components/landing/ToxicBlackMoldInfo";
+import PestControlInfo from "@/components/landing/PestControlInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -15,32 +15,32 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>toxic black mold cleanup Brevard NC | Brevard Toxic Black Mold Cleanup Pros</title>
-        <meta name="description" content="Looking for professional toxic black mold cleanup Brevard NC? Expert black mold removal, air purification, and full property remediation for Brevard homes. Call 3802660944 today!" />
-        <meta name="keywords" content="toxic black mold cleanup Brevard NC, Brevard black mold cleaning, toxic mold removal Brevard NC, professional black mold remediation Brevard" />
-        <link rel="canonical" href="https://toxicblackmoldcleanupbrevardnc.vercel.app/" />
+        <title>pest control baton rouge | Baton Rouge Pest Control Pros</title>
+        <meta name="description" content="Professional pest control baton rouge. Expert extermination for termites, rodents, and insects. Call 3238801224 for a free estimate in Baton Rouge, LA." />
+        <meta name="keywords" content="pest control baton rouge, Baton Rouge pest control, exterminator Baton Rouge LA, termite control Baton Rouge, rodent removal Baton Rouge" />
+        <link rel="canonical" href="https://pestcontrolbatonrouge.vercel.app/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Brevard Toxic Black Mold Cleanup Pros",
-            "image": "/1.jpeg",
-            "@id": "https://toxicblackmoldcleanupbrevardnc.vercel.app/",
-            "url": "https://toxicblackmoldcleanupbrevardnc.vercel.app/",
-            "telephone": "+13802660944",
+            "name": "Baton Rouge Pest Control Pros",
+            "image": "/2.jpeg",
+            "@id": "https://pestcontrolbatonrouge.vercel.app/",
+            "url": "https://pestcontrolbatonrouge.vercel.app/",
+            "telephone": "+13238801224",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "101 S Broad St",
-              "addressLocality": "Brevard",
-              "addressRegion": "NC",
-              "postalCode": "28712",
+              "streetAddress": "100 North Blvd",
+              "addressLocality": "Baton Rouge",
+              "addressRegion": "LA",
+              "postalCode": "70801",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "35.2334",
-              "longitude": "-82.7343"
+              "latitude": "30.4583",
+              "longitude": "-91.1403"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -55,33 +55,33 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Black Mold Remediation",
+            "serviceType": "Pest Control Services",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Brevard Toxic Black Mold Cleanup Pros"
+              "name": "Baton Rouge Pest Control Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "Brevard, NC"
+              "name": "Baton Rouge, LA"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Toxic Black Mold Services",
+              "name": "Pest Control Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Toxic Black Mold Cleanup" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Black Mold Air Quality Testing" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Safe Mold Containment & Removal" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "HEPA Air Scrubbing" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Termite Control" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Rodent Exclusion" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ant & Cockroach Treatment" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mosquito Fogging" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="toxic black mold cleanup Brevard NC | Brevard Toxic Black Mold Cleanup Pros" />
-        <meta property="og:description" content="Expert toxic black mold cleanup services in Brevard, NC. Professional removal, air filtering, and property restoration to make your home safe again. Call 3802660944!" />
+        <meta property="og:title" content="pest control baton rouge | Baton Rouge Pest Control Pros" />
+        <meta property="og:description" content="Expert pest control services in Baton Rouge, LA. Professional termite, rodent, and insect removal to protect your home in the Red Stick City. Call 3238801224!" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://toxicblackmoldcleanupbrevardnc.vercel.app/" />
-        <meta property="og:image" content="/1.jpeg" />
+        <meta property="og:url" content="https://pestcontrolbatonrouge.vercel.app/" />
+        <meta property="og:image" content="/2.jpeg" />
       </Helmet>
 
       <Header />
@@ -89,24 +89,24 @@ const Index = () => {
         <Hero
           title={
             <>
-              Toxic Black Mold <br />
-              <span className="text-white drop-shadow-sm uppercase">Cleanup in Brevard NC</span>
+              Pest Control <br />
+              <span className="text-white drop-shadow-sm uppercase">in Baton Rouge LA</span>
             </>
           }
-          subtitle="Brevard's premier specialists in professional toxic black mold cleanup. We use strictly controlled containment and advanced removal techniques to rid your property of dangerous Stachybotrys chartarum, protecting your air and health in the Blue Ridge Mountains."
-          image="/1.jpeg"
-          overlayImage="/2.jpeg"
-          badge="BREVARD BLACK MOLD PROS"
-          phone="3802660944"
+          subtitle="Baton Rouge's premier specialists in professional pest control. From the bluffs of the Mississippi to the heart of the Red Stick City, we protect your home from termites, rodents, and seasonal pests with advanced, eco-friendly exclusion techniques."
+          image="/2.jpeg"
+          overlayImage="/4.jpeg"
+          badge="BATON ROUGE PEST PROS"
+          phone="3238801224"
           features={[
-            { icon: Microscope, text: "Toxicity Testing" },
-            { icon: Wind, text: "HEPA Filtration" },
-            { icon: ShieldCheck, text: "Full Remediation" }
+            { icon: ShieldCheck, text: "Eco-Friendly" },
+            { icon: Zap, text: "Rapid Response" },
+            { icon: Microscope, text: "Full Inspection" }
           ]}
         />
         <Services />
         <WhyUs />
-        <ToxicBlackMoldInfo />
+        <PestControlInfo />
         <Contact />
         <FAQ />
 
@@ -117,7 +117,7 @@ const Index = () => {
               <a href="https://wildliferemovalgastonianc.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Wildlife Removal Gastonia NC</a>
               <a href="https://wildliferemovaldouglasvillega.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Wildlife Removal Douglasville GA</a>
               <a href="https://toxicblackmoldcleanupgulfbreeze.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Toxic Black Mold Cleanup Gulf Breeze</a>
-              <a href="https://moldremediationeauclairewi.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Mold Remediation Eau Claire WI</a>
+              <a href="https://bedbugheattreatmentbaltimoremd.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Bed Bug Heat Treatment Baltimore MD</a>
             </div>
           </div>
         </section>
