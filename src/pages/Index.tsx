@@ -28,7 +28,7 @@ const Index = () => {
             "image": "/4.jpeg",
             "@id": "https://trenchlesssewerrepairscottsdaleaz.vercel.app/",
             "url": "https://trenchlesssewerrepairscottsdaleaz.vercel.app/",
-            "telephone": "+18777921410",
+            "telephone": "(877) 792-1410",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "7014 E Camelback Rd",
@@ -115,7 +115,7 @@ const Index = () => {
             <h2 className="text-2xl font-bold mb-6 text-slate-800 uppercase tracking-tight">Our Professional Resource Network</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pb-8">
               <a href="https://pestcontrolbatonrouge.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Pest Control Baton Rouge</a>
-              <a href="https://plumbermontellowi.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Plumber Montello WI</a>
+              <a href="https://trenchlesssewerrepairscottsdaleaz.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Trenchless Sewer Repair Scottsdale AZ</a>
               <a href="https://wildliferemovaldouglasvillega.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Wildlife Removal Douglasville GA</a>
               <a href="https://toxicblackmoldcleanupgulfbreeze.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors underline">Toxic Black Mold Cleanup Gulf Breeze</a>
             </div>

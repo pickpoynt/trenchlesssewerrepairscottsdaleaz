@@ -23,10 +23,10 @@ const Header = () => {
             </div>
             <div>
               <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-indigo-950" : "text-white"}`}>
-                Montello WI
+                Scottsdale
               </span>
               <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-indigo-600" : "text-indigo-400"}`}>
-                Plumbing <span className="text-[10px] opacity-70 px-1 text-nowrap">Pros</span>
+                Trenchless <span className="text-[10px] opacity-70 px-1 text-nowrap">Pros</span>
               </span>
             </div>
           </div>
@@ -45,7 +45,7 @@ const Header = () => {
           <div className="hidden lg:flex items-center gap-6">
             <div className={`flex flex-col items-end ${isScrolled ? "text-slate-900" : "text-white"}`}>
               <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">24/7 PLUMBING HOTLINE</p>
-              <a href="tel:8777921410" className="text-3xl font-bold text-indigo-400 block mb-6">8777921410</a>
+              <a href="tel:8777921410" className="text-3xl font-bold text-indigo-400 block mb-6">(877) 792-1410</a>
             </div>
             <Button className={`${isScrolled ? "bg-indigo-600 hover:bg-indigo-700" : "bg-white text-slate-900 hover:bg-indigo-50"} h-12 px-8 rounded-xl font-bold shadow-xl transition-all hover:-translate-y-0.5`} asChild>
               <a href="tel:8777921410">Call Now</a>
@@ -67,7 +67,7 @@ const Header = () => {
             <a href="/lease-my-number" className="text-lg font-bold tracking-wide hover:text-indigo-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>Lease</a>
             <div className="pt-6">
               <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">24/7 PEST CONTROL HOTLINE</p>
-              <a href="tel:8777921410" className="text-3xl font-bold text-indigo-400 block mb-6">8777921410</a>
+              <a href="tel:8777921410" className="text-3xl font-bold text-indigo-400 block mb-6">(877) 792-1410</a>
               <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-14 text-lg font-bold rounded-xl" asChild>
                 <a href="tel:8777921410">Call Specialist</a>
               </Button>
