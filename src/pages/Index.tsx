@@ -9,7 +9,7 @@ import Footer from "@/components/landing/Footer";
 import RandomLinks from "@/components/landing/RandomLinks";
 import FloatingCallButton from "@/components/ui/FloatingCallButton";
 import { Helmet } from "react-helmet-async";
-import { ShieldCheck, Wind, Microscope } from "lucide-react";
+import { ShieldCheck, Zap, Microscope } from "lucide-react";
 
 const Index = () => {
   return (
